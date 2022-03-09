@@ -23,3 +23,14 @@
     }
   ```
   * `<colgroup />`
+---
+* `<iframe />` : 페이지 내에 다른 html페이지를 삽입할 수 있도록 하는 기능
+---
+* `<meta name='viewport' ~~>` : 기기에 따라 보이는 영역 설정
+---
+컴퓨터 코드나 결과를 예쁘게 나타내는 태그들
+* `<kbd>` element defines keyboard input
+* `<samp>` element defines sample output from a computer program
+* `<code>` element defines a piece of computer code
+* `<var>` element defines a variable in programming or in a mathematical expression
+* `<pre>` element defines preformatted text
