@@ -34,3 +34,56 @@
 * `<code>` element defines a piece of computer code
 * `<var>` element defines a variable in programming or in a mathematical expression
 * `<pre>` element defines preformatted text
+---
+## html의 일반적 룰
+* 띄어쓰기 자제 (= 사이에)
+* `<img />` 사용 시 `alt` 및 `크기` 지정 고려
+
+---
+## form 태그
+```html
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+```
+* input의 타입
+  * `<input type="text">`
+  * `<input type="radio">`
+  * `<input type="checkbox">`
+  * `<input type="submit">`
+    ```html
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      <input type="submit" value="Submit">
+    </form> 
+    <!-- action에 있는 주소로 이동 submit 제출 시 -->
+    ```
+  * `<input type="button">`
+* target의 속성
+  * _blank	The response is displayed in a new window or tab
+  * _self	The response is displayed in the current window
+  * _parent	The response is displayed in the parent frame
+  * _top	The response is displayed in the full body of the window
+  * framename	The response is displayed in a named iframe
+* method의 속성
+  * get
+  * post
+    * Tip: Always use POST if the form data contains sensitive or personal information!
+* form elements
+  * `<input>`
+  * `<label>`
+  * `<select>`
+  * `<textarea>`
+  * `<button>`
+  * `<fieldset>`
+  * `<legend>`
+  * `<datalist>`
+  * `<output>`
+  * `<option>`
+  * `<optgroup>`
