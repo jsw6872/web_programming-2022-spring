@@ -87,3 +87,11 @@
   * `<output>`
   * `<option>`
   * `<optgroup>`
+* form attribute
+  * `action`
+  * `formenctype`
+  * `formmethod`
+    *  [get vs post (html input form attributes)](https://www.w3schools.com/html/html_form_attributes_form.asp)
+ * `formtarget`
+ * `formnovalidate`
+ * `novalidate`
