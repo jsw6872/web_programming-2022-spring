@@ -1,5 +1,7 @@
 # CSS
 ## 새로 알게된 태깅 및 기능
+### display: inline-block
+- inline 엘리먼트처럼 전후 줄바꿈 없이 한 줄에 다른 엘리먼트들과 나란히 배치됩니다. 하지만 inline 엘리먼트에서 불가능하던 width와 height 속성 지정 및 margin과 padding 속성의 상하 간격 지정이 가능
 ### css 여러 요소 동시 선택 적용
 - [css 동시 선택 참조](https://blog.naver.com/PostView.nhn?blogId=shinekjm&logNo=221618781015)
 ### websafe fonts for HTML and CSS
@@ -99,3 +101,43 @@ ul.b {
 - `position: sticky`
 ### z-index
 `z-index` : 값은 정수이며, 숫자가 클 수록 위로 올라오고, 숫자가 작을 수록 아래로 내려가며 요소들을 겹치는 표현을 하고 싶을 때 활용
+### overflow
+- visible - Default. The overflow is not clipped. The content renders - outside the element's box
+- hidden - The overflow is clipped, and the rest of the content will be invisible
+- scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
+- auto - Similar to scroll, but it adds scrollbars only when necessary
+- overflow-x
+- overflow-y
+### float
+- `clear` : 요소를 아래로 내린다.
+### combinator
+```css
+/* div 다음으로 오는 형제 p 태그 하나만 적용 */
+div + p {
+  background-color: yellow;
+}
+/* 한 개가 아닌 전역으로 형제 태그 적용 */
+div ~ p {
+  background-color: yellow;
+}
+```
+### pseudo-class
+### pseudo-element
+### attribute selector
+```css
+input[type="text"] {
+  width: 150px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: yellow;
+}
+
+input[type="button"] {
+  width: 120px;
+  margin-left: 35px;
+  display: block;
+}
+```
+### CSS counters
+### CSS layout
+[layout](https://www.w3schools.com/css/css_website_layout.asp)
