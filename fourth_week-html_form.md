@@ -41,3 +41,11 @@
 ### datalist
 ### button
 ### output
+## GET vs POST
+- GET 방식 
+  - 지정된 resource로부터 data를 요청(수정X)하기 위해 활용
+  - query string이 URL에 부가되어 전송: ‘?’ symbol 뒤에 name=value 형식
+  - 전송할 수 있는 요청의 길이가 최대 URL 길이(2048 characters)에 의해 제한이 걸림
+- POST 방식
+  -  resource의 생성 및 수정을 위한 data의 전송에 활용
+  -  전송할 data를 HTTP Request의 body에 담아 보냄 - data의 길이에 제한이 없음
