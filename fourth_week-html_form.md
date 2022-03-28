@@ -49,3 +49,7 @@
 - POST 방식
   -  resource의 생성 및 수정을 위한 data의 전송에 활용
   -  전송할 data를 HTTP Request의 body에 담아 보냄 - data의 길이에 제한이 없음
+## File upload 기능
+### servlet 과 JSP 역할 분담
+- File Upload의 처리 -> servlet 담당
+- 처리 후 결과 HTML 문서의 작성 -> JSP 담당
