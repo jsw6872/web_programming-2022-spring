@@ -16,15 +16,17 @@
 - servlet보다 성능 및 보안 상의 장점이 떨어짐
 
 ## jsp vs servlet
-### Servlet
+### Servlet - web.xml을 통해 매핑 필요
 - Java 코드 안에 HTML 코드 (하나의 클래스)
 - data processing(Controller)에 좋다.
 - 즉 DB와의 통신, Business Logic 호출, 데이터를 읽고 확인하는 작업 등에 유용하다.
 - Servlet이 수정된 경우 Java 코드를 컴파일(.class 파일 생성)한 후 - 동적인 페이지를 처리하기 때문에 전체 코드를 업데이트하고 다시 컴파일한 후 재배포하는 작업이 필요하다. (개발 생산성 저하)
+- form 태그에서 actions를 통해 실행 가능
 ### jsp
 - HTML 코드 안에 Java 코드
 - presentation(View)에 좋다.
 - 즉 요청 결과를 나타내는 HTML 작성하는데 유용하다.
 - JSP가 수정된 경우 재배포할 필요가 없이 WAS가 알아서 처리한다. (쉬운 배포)  
+- form 태그에서 actions를 통해 실행 가능
 [servlet과 jsp의 관계](https://codevang.tistory.com/191)
 [servlet과 jsp의 관계](https://gmlwjd9405.github.io/2018/11/04/servlet-vs-jsp.html)
